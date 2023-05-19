@@ -9,7 +9,7 @@
 }
 #es-RC-container {
   font-family: "Montserrat", "DejaVu Sans", "Verdana", sans-serif;
-  max-width: 999px;
+  max-width: 998px;
   margin: auto;
 }
 #es-RC-container *,
@@ -339,6 +339,10 @@
   width: 100%;
   min-height: 450px;
   z-index: 1;
+}
+#es-RC-container .es-video #es-video__player {
+  max-width: 100%;
+  display: block;
 }
 #es-RC-container .es-routine {
   text-align: center;

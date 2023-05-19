@@ -149,7 +149,7 @@ $padding--XXL: 6rem;
 
 #es-RC-container {
   font-family: $ff--montserrat;
-  max-width: 999px;
+  max-width: 998px;
   margin: auto;
   //reset start
   *,
@@ -400,6 +400,10 @@ $padding--XXL: 6rem;
       width: 100%;
       min-height: 450px;
       z-index: 1;
+    }
+    #es-video__player {
+      max-width: 100%;
+      display: block;
     }
   }
 
